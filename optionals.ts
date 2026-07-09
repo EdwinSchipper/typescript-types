@@ -13,3 +13,7 @@ type User = {
     age: number,
     role?: 'admin' | 'user' // ? means optional property
 };
+
+
+let input = '';
+const DidProvideInput = input ?? false;
