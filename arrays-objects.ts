@@ -3,8 +3,8 @@ let hobbies = ['Sports', 'Cooking'];
 let hobbies_alt: string[] = ['Sports', 'Cooking'];
 let users: string[];
 
-hobbies.push(10);
-hobbies_alt.push('Fishing');
+hobbies.push(10); // invalid
+hobbies_alt.push('Fishing'); // valid
 
 
 
